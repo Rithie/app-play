@@ -250,8 +250,7 @@ handleAddPress = () => {
     
 
         <MapView
-          provider={PROVIDER_GOOGLE}
-          customMapStyle={mapStyle}
+          
           ref={map => this.mapView = map}
           initialRegion={{
             latitude,

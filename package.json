@@ -6,7 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
-"dependencies": {
+  "dependencies": {
+    "native-base": "^2.4.2",
     "react": "^16.3.0-alpha.1",
     "react-native": "0.54.3",
     "react-native-elements": "^0.19.1",
@@ -23,4 +24,3 @@
     "preset": "react-native"
   }
 }
-

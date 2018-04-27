@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 import { Image, ScrollView, View, Text, StyleSheet, Dimensions, TextInput, TouchableOpacity, FlatList } from 'react-native';
-
+import { Container, Header, Content, Button } from 'native-base';
 
 import MapView ,{ PROVIDER_GOOGLE }from 'react-native-maps';
 import RNGooglePlaces from 'react-native-google-places';
@@ -250,7 +250,7 @@ handleAddPress = () => {
     
 
         <MapView
-          
+          hybridFlyover
           ref={map => this.mapView = map}
           initialRegion={{
             latitude,
@@ -260,7 +260,7 @@ handleAddPress = () => {
           }}
           style={styles.mapView}
           
-          zoomEnabled={false}
+          zoomEnabled
           showsPointsOfInterest={false}
           showBuildings={false}
           onMapReady={this._mapReady}
@@ -354,7 +354,11 @@ handleAddPress = () => {
                   source={{uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png'}}
                 />
               </View>
-              <View style={styles.placeItem} />
+              <View style={styles.placeItem}>
+                <Button bordered light>
+                  <Text>Light</Text>
+                </Button>
+              </View>
               <View style={styles.placeItem}>
               <View 
                     style={{ 

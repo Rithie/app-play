@@ -39,7 +39,7 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>
@@ -65,6 +65,16 @@
 		<string>rubicon-icon-font.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>Open Sans Bold Italic.ttf</string>
+		<string>Open Sans Bold.ttf</string>
+		<string>Open Sans Extra Bold Italic.ttf</string>
+		<string>Open Sans Extra Bold.ttf</string>
+		<string>Open Sans Italic.ttf</string>
+		<string>Open Sans Light Italic.ttf</string>
+		<string>Open Sans Light.ttf</string>
+		<string>Open Sans Regular.ttf</string>
+		<string>Open Sans Semi Bold.ttf</string>
+		<string>Open Sans Semi Bold Italic.ttf</string>
 	</array>
 </dict>
 </plist>

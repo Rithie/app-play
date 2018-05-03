@@ -20,8 +20,8 @@
   NSURL *jsCodeLocation;
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
-  [GMSPlacesClient provideAPIKey:@"AIzaSyA_REq0Q6u71hs_i1MgLoJGm9wUSoD1A6U"];
-  [GMSServices provideAPIKey:@"AIzaSyA_REq0Q6u71hs_i1MgLoJGm9wUSoD1A6U"];
+  [GMSPlacesClient provideAPIKey:@"AIzaSyAgIiWaAE6jP7LfSGFbsgCV9g7-94jfptA"];
+  [GMSServices provideAPIKey:@"AIzaSyAgIiWaAE6jP7LfSGFbsgCV9g7-94jfptA"];
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"iplayapp"
